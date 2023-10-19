@@ -73,7 +73,7 @@ DWORD checkOS()
 	else
 		printf("[-] OS version detect failed.\n");
 
-	return(0);
+	return(4);
 }
 
 DWORD getThreadID(DWORD pid)
